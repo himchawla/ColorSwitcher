@@ -20,7 +20,7 @@ class GameScene: SKScene {
 
     func createShape()
     {
-        shape = SKSpriteNode(fileNamed: "")
+        shape = SKSpriteNode(imageNamed: "ball.png")
         shape.position = CGPoint(x:self.frame.midX, y:self.frame.midY);
         self.addChild(shape);
     }
