@@ -6,12 +6,19 @@
 	<true/>
 	<key>destination</key>
 	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://drive.google.com/file/d/1LybiMgfpgT2efqU9qcS9yHPTSMoLdt0H/view?usp=drivesdk</string>
+		<key>displayImageURL</key>
+		<string>https://drive.google.com/file/d/1LybiMgfpgT2efqU9qcS9yHPTSMoLdt0H/view?usp=drivesdk</string>
+		<key>fullSizeImageURL</key>
+		<string>https://drive.google.com/file/d/1LybiMgfpgT2efqU9qcS9yHPTSMoLdt0H/view?usp=drivesdk</string>
+	</dict>
 	<key>method</key>
 	<string>development</string>
-	<key>signingCertificate</key>
-	<string>Apple Development</string>
 	<key>signingStyle</key>
-	<string>manual</string>
+	<string>automatic</string>
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
