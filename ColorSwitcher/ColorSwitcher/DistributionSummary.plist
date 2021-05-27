@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ColorSwitcher.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>0CAA2FFE91106854DAD404C6A9FED6721ECD6B1C</string>
+				<key>dateExpires</key>
+				<string>24/05/22</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>name</key>
+			<string>ColorSwitcher.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>ZA996MYYKU</string>
+				<key>name</key>
+				<string>Himanshu chawla (Personal Team)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
