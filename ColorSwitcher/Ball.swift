@@ -79,11 +79,15 @@ class Ball:SKNode
     
     func reset()
     {
-        if shape.position.y == -400
+        if shape.position.y == -350
         {
             hasScored = false;
             shape.position.y = 500;
-            let movePlayerAction = SKAction.moveTo(y: -400, duration: 1.4);
+            let movePlayerAction:SKAction;
+            if GameScene.score < 10
+            {   movePlayerAction = SKAction.moveTo(y: -350, duration: 1.4); }
+            else
+            {   movePlayerAction = SKAction.moveTo(y: -350, duration: 1.2); }
             shape.run(movePlayerAction);
             shape.alpha = 1.0;
             updateColor();
@@ -116,7 +120,7 @@ class Ball:SKNode
     func createShape() -> SKSpriteNode
     {
         shape = SKSpriteNode(imageNamed: "ball.png")
-        shape.position = CGPoint(x:self.frame.midX, y:self.frame.midY);
+        shape.position = CGPoint(x:self.frame.midX, y:500);
         
         return shape;
     }

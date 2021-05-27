@@ -23,7 +23,7 @@ class Circle:SKNode
     func createShape() -> SKSpriteNode
     {
         shape = SKSpriteNode(imageNamed: "circe.png")
-        shape.position = CGPoint(x:self.frame.midX,y: -350);
+        shape.position = CGPoint(x: 0,y: -350);
         
         return shape;
     }
@@ -38,3 +38,4 @@ class Circle:SKNode
         activeColor.change(_color: activeColor, _value: 1);
     }
 }
+
